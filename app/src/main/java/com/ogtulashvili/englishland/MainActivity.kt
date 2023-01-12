@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             EnglishLandTheme {
-                // A surface container using the 'background' color from the theme
                 HomeScreen(viewModel = HomeScreenViewModel())
                 }
             }
